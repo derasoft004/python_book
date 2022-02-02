@@ -59,6 +59,8 @@ pre{
 }
 
 .page_text{
+	justify-content: space-between;
+	display: inline-block;
 	padding: 10px 20px;
 }
 
