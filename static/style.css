@@ -17,7 +17,7 @@ a{
 header{
 	justify-content: space-between;
 	display: inline-block;
-	min-width: 1430px;
+	width: 100%;
 	background: url('../static/1579317564_41-97.png');
 	background-size: 100%;
 	padding: 30px;
