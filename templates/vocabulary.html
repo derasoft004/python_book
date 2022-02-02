@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comforter&family=Source+Serif+4:ital,wght@1,200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../static/style.css">
+	<link rel="shortcut icon" href="../static/kiss" type="image/x-icon">
+	<link rel="shortcut icon" href="../static/kisspng-python-logo-programmer-fierce-python-cliparts-5ab7bde1738eb3.0871706315219911374733.jpg" type="image/x-icon">
+	<title>Словарь</title>
+</head>
+<body>
+	<header>
+		<div class="bg_header">
+			<div class="name_site">
+				<span style="color: black;text-decoration: none; font-size: 23px;"><a href="index.html" >Точка входа в программирование</a></span>
+				<Span style="margin-left: 330px; font-size: 35px; color: black;"><a href="index.html" >Python</a></Span>
+				<span style="color: black;text-decoration: none; margin-left: 310px; font-size: 23px;"><a href="vocabulary.html" >Словарь</a></span>
+				<span style="color: black;text-decoration: none; margin-left: 20px; font-size: 23px;"><a href="page_with_cycles.html" >Циклы</a></span>
+				<span style="color: black;text-decoration: none; margin-left: 20px; font-size: 23px;"><a href="page_with_defs.html"></span>Хункции</a>
+			</div>
+		</div>
+	</header>
+
+	<hr>
+
+	<div class="main_page">
+		<div class="bg_main_page">
+			<div class="page_text">
+				<div class="article1_name">
+					Эта страница является словарем, который ты всегда сможешь открыть через верхнее меню и напомнить себе что значит то или иное определение.
+				</div>
+				<div class="article1_text">
+					<ul>
+						<li><span style="color:#ababab; font-size: 25px;">Оператор</span> - операция, выполняющая сравнение на равенство (==), на превосходство одного значения перед другогим(>, < или >=, <=), так же операция ИЛИ на Python = or, операция И = and, операция НЕ = not.
+						*Будьте внимательны: операция '=' означает присваивание значения переменной, а операция '=='' лишь сравнивает их.</li>
+						<li>
+							<span style="color:#ababab; font-size: 25px;">Комментарий</span> - блок кода, начинающийся после знака решетки(#) и не играющий никакой роли в коде проекта, кроме пояснительной.
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="code_example">
+			<div class="code_block">
+				<pre>
+					if 10 == 10:
+						a = True
+						# переменной а задано значение True, так как проверка на равенство прошла успешно
+					print(a)
+				</pre>
+			</div>
+			<div class="console_block">
+				<pre>
+					>>> True
+				</pre>
+			</div>
+		</div>
+
+		<div class="bg_main_page">
+			<div class="page_text">
+				<div class="article1_text">
+					<ul>
+						<li>
+							<span style="color:#ababab; font-size: 25px;">Псевдокод</span> - код, похожий на настоящий, но приведенный лишь для примера в целях обучения.
+						</li> 
+						<li>
+							<span style="color:#ababab; font-size: 25px;">Переменные</span> - это 'коробки', в которые мы складываем информацию, воспользоваться которыми можно в любой части нашего кода.
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="code_example">
+			<div class="code_block">
+				<pre>
+					a = 10 # число(int)
+					b = 'привет' # строка (str)
+					c = True # булева логика(bool(True/False))
+					# в комментариях я описал типы данных, которые содержат наши переменнные a, b и c
+					print(a, b, c)
+				</pre>
+			</div>
+			<div class="console_block">
+				<pre>
+					>>> 10 привет True
+				</pre>
+			</div>
+		</div>
+
+		<div class="bg_main_page">
+			<div class="page_text">
+				<div class="article1_text">
+					<ul>
+						<li>
+							<span style="color:#ababab; font-size: 25px;">Типы данных</span>: всего типов данных ссуществует много, но вот основные из них:
+							<ol>
+								<li>
+									int - целое число(7)
+								</li>
+								<li>
+									float - число с плавающей точкой(7.234)
+								</li>
+								<li>
+									bool - булева логика(True или False)
+								</li>
+								<li>
+									str - строка('это строка')
+								</li>
+							</ol>
+						</li> 
+						<li>
+							<span style="color:#ababab; font-size: 25px;">Блок</span>  - специальное место в коде, отделенное двоеточием (:);<br>
+							если мы создаем функцию, цикл или условие, они обязательно должны содержать в себе блок кода после двоеточия!
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="code_example">
+			<div class="code_block">
+				<pre>
+					if True:
+						# блок кода
+					while True:
+					 	# тоже блок кода
+					def F():
+					 	# такой же блок
+				</pre>
+			</div>
+		</div>
+	</div>
+	<hr>
+
+	<footer>
+		<div class="bg_footer">
+			<a href="https://vk.com/pujge" style="margin-left: 50px; font-size: 30px;">Разработчик</a>
+			<p style="margin-left: 830px; margin-top: -25px; margin-bottom: -10px ; color:#262626;">*Это пособие лишь является облегченным учебником <br> для тех, кто хочет попробовать себя <br> в программировании и войти в эту непростую профессию c нуля</p>
+		</div>
+	</footer>
+</body>
+</html>

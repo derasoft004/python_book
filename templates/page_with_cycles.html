@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Comforter&family=Source+Serif+4:ital,wght@1,200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../static/style.css">
+	<link rel="shortcut icon" href="../static/kisspng-python-logo-programmer-fierce-python-cliparts-5ab7bde1738eb3.0871706315219911374733.jpg" type="image/x-icon">
+	<title>Циклы</title>
+</head>
+<body>
+	<header>
+		<div class="bg_header">
+			<div class="name_site">
+				<span style="color: black;text-decoration: none; font-size: 23px;"><a href="index.html" >Точка входа в программирование</a></span>
+				<Span style="margin-left: 330px; font-size: 35px; color: black;"><a href="index.html" >Python</a></Span>
+				<span style="color: black;text-decoration: none; margin-left: 310px; font-size: 23px;"><a href="vocabulary.html" >Словарь</a></span>
+				<span style="color: black;text-decoration: none; margin-left: 20px; font-size: 23px;"><a href="page_with_cycles.html" >Циклы</a></span>
+				<span style="color: black;text-decoration: none; margin-left: 20px; font-size: 23px;"><a href="page_with_defs.html" ></span>Хункции</a>
+			</div>
+		</div>
+	</header>
+
+	<hr>
+
+	<div class="main_page">
+		<div class="bg_main_page">
+			<div class="page_text">
+				<div class="article1_name">
+					На этой странице мы познакомимся с двумя видами циклов: цикл while и цикл for <br>
+					Само понятие <span style="color:#ababab; font-size: 25px;"> Цикл</span> означает то, что какое то действие повторяется несолько раз.
+				</div>
+				<div class="article1_text">
+					<ul>
+						<li>
+							<span style="color:#ababab; font-size: 25px;">
+							while
+							</span>
+							представляет из себя цикл, который выполняется до тех пор, пока условие, которое мы указали в его начале,  верно.
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="code_example">
+			<div class="code_block">
+				<pre>
+					a = 0
+					while (a < 10): # (a < 10) - условие
+						a += 2 # каждый проход цикла переменная a увеличивается на 2
+						print(a)
+				</pre>
+			</div>
+			<div class="text_example">
+				Заметьте, что переменная объявлена до создания цикла. <br> 
+				В выводе программа вывела 10 потому, что когда a было равно 8, цикл выполнился еще 1 раз и дошел до значения, которое не удовлетворяет условию (разберись, это легко)
+			</div>
+			<div class="console_block">
+				<pre>
+					>>> 2
+					>>> 4
+					>>> 6
+					>>> 8
+					>>> 10
+				</pre>
+			</div>
+		</div>
+		<div class="bg_main_page">
+			<div class="page_text">
+				<div class="article1_text">
+					<ul>
+						<li>
+							<span style="color:#ababab; font-size: 25px;">
+							for
+							</span>
+							представляет из себя цикл, который выполняется в некотором диапозоне (range) и каждый раз проходя цикл записывает индекс такого прохода в переменную, которая соответствует месту в диапозоне( например, если цикл начался с единицы, то в переменную цикла при первом проходе запишется 1, а при втором - 2). <br>
+							На примере все станет понятнее, не переживай)
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="code_example">
+			<div class="code_block">
+				<pre>
+					for i in range(3):
+						print(i) # переменная i, содержащая в себе индекс прохода цикла
+						(порядковый номер его выполнения, если так проще) 
+						создается прямо в цикле после ключевого слова for, а в range отсчет идет не с единицы, 
+						а с <span style="color:red;">нуля</span> и не использует в качетсве индекса прохода последнее число
+						(то есть 0-ой проход, 1-й и 2-й)
+
+				</pre>
+			</div>
+			<div class="text_example">
+				При этом если в range указать два параметра (a, b), где a и b - целые числа, то проходить for начнет с первого, а закончит, дойдя до второго - 1
+			</div>
+			<div class="console_block">
+				<pre>
+					>>> 0
+					>>> 1
+					>>> 2
+				</pre>
+			</div>
+		</div>
+
+	</div>
+
+	<hr>
+
+	<footer>
+		<div class="bg_footer">
+			<a href="https://vk.com/pujge" style="margin-left: 50px; font-size: 30px;">Разработчик</a>
+			<p style="margin-left: 830px; margin-top: -25px; margin-bottom: -10px ; color:#262626;">*Это пособие лишь является облегченным учебником <br> для тех, кто хочет попробовать себя <br> в программировании и войти в эту непростую профессию c нуля</p>
+		</div>
+	</footer>
+</body>
+</html>
