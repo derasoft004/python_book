@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+	<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../static/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&family=Source+Serif+4:ital,wght@1,200&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="../static/kisspng-python-logo-programmer-fierce-python-cliparts-5ab7bde1738eb3.0871706315219911374733.jpg" type="image/x-icon">
+	<title>Точка входа в программирование</title>
+</head>
+<body>
+	<header>
+		<div class="bg_header">
+			<div class="name_site">
+				<span style="color: black;text-decoration: none; font-size: 23px;"><a href="index.html" >Точка входа в программирование</a></span>
+				<Span style="margin-left: 330px; font-size: 35px; color: black;"><a href="index.html" >Python</a></Span>
+				<span style="color: black;text-decoration: none; margin-left: 310px; font-size: 23px;"><a href="vocabulary.html" >Словарь</a></span>
+				<span style="color: black;text-decoration: none; margin-left: 20px; font-size: 23px;"><a href="page_with_cycles.html" >Циклы</a></span>
+				<span style="color: black;text-decoration: none; margin-left: 20px; font-size: 23px;"><a href="page_with_defs.html" ></span>Хункции</a>
+			</div>
+		</div>
+	</header>
+
+	<hr style="margin: 10px 20px;">
+
+	<div class="main_page">
+		<div class="bg_main_page">
+			<div class="page_text">
+				<div class="article1_name">
+					Python - один из лучшх языков программирования для начинающих, дающий отличный старт в понимании простых и сложных алгоритмов.
+				</div>
+				<div class="article1_text">
+					<p><span style="color: #3b3b3b;">*Перед началом изучения базы Python я советую ознакомиться со <a href="/vocabulary">словарем основных понятий</a>, которые должен знать каждый питонист</span></p>
+					<p>Если ты здесь, значит тебя интересует то, как легко и быстро освоить программирование и сделать первый шаг на пути джедая с ноутбуком в руках.
+					Наше ближайшее и дальнейшее будущее напрямую зависит от IT, поэтому без промедления я хочу показать тебе то, как выглядит Python и научить тебя использовать его основы. Предлагаю начать обучение с обычного вывода  командой 'print':</p>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="code_example">
+			<div class="code_block">
+				<pre>
+					num = 10 
+					print('hello') 
+					print(num)
+				</pre>
+			</div>
+			<div class="text_example">
+				*После активации этого <a href="/vocabulary">псевдокода</a> в консоль выводится весь текст, что находится в ковычках у 'print' (неважно, в одинарных
+			  '' или вдойных "") и все <a href="/vocabulary">переменные</a>, определенные(названные) до выполнения команды 'print'
+			</div>
+			<div class="console_block">
+				<pre> 
+					>>> hello
+					>>> 10
+
+				</pre>
+			</div>
+		</div>
+
+		<div class="bg_main_page">
+			<div class="page_text">
+				Давайте же сразу разберемся с основой практически всех алгоритмов - с проверкой условия на истинность. В языке Python это делается очень и очень просто:
+				<ul>
+					<li>сначала открывается <a href="/vocabulary">блок</a> 'if' (с помощью ':')</li>
+					<li>в этом блоке прописывается код, который выполнится в зависимости от истинности условия (если истинно)</li>
+					<li>
+						после (по желанию) открывается блок 'else'
+					</li>
+					<li>
+						в этом блоке прописывается код, который также выполнится в зависимости истиннтсти условия ( если ложно)
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="code_example">
+			<div class="code_block">
+				<pre>
+					if (3 + 7 == 10):
+						print('Верно, три плюс семь равно десять')
+					else:
+						print('Неверно.')		
+				</pre>
+			</div>
+			<div class="text_example">
+				*Конструкция 'if else'(если) работает легче, чем может показаться;
+				<ul>
+					<li>Если условие True (то есть истинно),  выполняется код,  находящийся в блоке 'if'</li>
+					<li>
+						Если условие False (то есть ложно),  выполняется код, находящийся в блоке 'else'
+					</li>
+				</ul>
+			</div>
+			<div class="console_block">
+				<pre>
+
+					>>> Верно, три плюс семь равно десять
+
+				</pre>
+			</div>
+		</div>
+
+		<div class="bg_main_page">
+			<div class="page_text">
+				Так, 'if' проверяет истинность условия (условий) всего один раз, но что делать, если проверок должно быть несколько? Для этого существует конструкция 'elif', которая проверяет истинность следующего условия в этом блоке, если предыдущие условия False
+			</div>
+		</div>
+
+		<div class="code_example">
+			<div class="code_block">
+				<pre>
+					
+					if (5 + 1 == 10):
+						print('Верно, пять плюс один равно десять.')
+					elif (5 + 5 == 10):
+						print('Верно, пять плюс пять равно десять')
+					else:
+						print('Все неверно')
+				</pre>
+			</div>
+			<div class="text_example">
+				*Обратите внимание на <a href="#">этикет питона</a> и на то, что для 'if' и 'elif' условие записывается в круглых скобках
+			</div>
+			<div class="console_block">
+				<pre>
+
+					>>> Верно, пять плюс пять равно десять
+
+				</pre>
+			</div>
+		</div>
+		<div class="bg_main_page">
+			<div class="page_text">
+				Таким образом на языке Python записывается обработка и проверка истинности одного или несколькольких условий, ничего сложного, верно?
+			</div>
+		</div>
+
+
+
+
+
+	</div>
+
+
+	<hr style="margin: 10px 20px;">
+
+	<footer>
+		<div class="bg_footer">
+			<a href="https://vk.com/pujge" style="margin-left: 50px; font-size: 30px;">Разработчик</a>
+			<p style="margin-left: 830px; margin-top: -25px; margin-bottom: -10px ; color:#262626;">*Это пособие лишь является облегченным учебником <br> для тех, кто хочет попробовать себя <br> в программировании и войти в эту непростую профессию c нуля</p>
+		</div>
+	</footer>
+</body>
+</html>
