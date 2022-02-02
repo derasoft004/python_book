@@ -1,0 +1,122 @@
+body{
+	font-family: 'Source Serif 4', cursive;
+	background: url("../static/sinie-biryuzovye-i-belye-geometricheskie-treugol-niki-oboi-2880x1620_52.jpg");
+	background-size: 110%;
+	background-attachment: fixed;
+	margin: -5px;
+	font-size: 20px;
+	text-decoration-color: black;
+}
+
+a{
+	text-decoration: none;
+	color: #9c9c9c;
+	transition: color .2s linear;
+}
+
+header{
+	justify-content: space-between;
+	display: inline-block;
+	background: url('../static/1579317564_41-97.png');
+	background-size: 100%;
+	padding: 30px;
+}
+
+header a{
+	color: black;
+}
+
+a:hover{
+	color: #858585;
+}
+
+pre{
+	margin-left: -480px;
+	margin-bottom: -15px;
+	margin-top: 5px;
+	padding: 10px;
+}
+
+.bg_footer{
+	background: url('../static/1579317564_41-97.png');
+	background-size: 100%;
+	padding: 30px;
+
+}
+
+.main_page{
+	display: inline-block;
+	margin: 0px 75px;
+
+}
+
+.bg_main_page{
+	background: url('../static/1519710198.jpg');
+	background-size: 100%;
+	border-radius: 10px;
+}
+
+.page_text{
+	padding: 10px 20px;
+}
+
+.article1_name{
+	font-weight: 700;
+}
+
+.code_example{
+	border-left: solid;
+	border-color: white;
+	padding: 10px;
+	margin: 20px;
+}
+
+.text_example{
+	margin: 20px 0px;
+	background: url('../static/1519710198.jpg');
+	background-size: 100%;
+	border-radius: 10px;
+	font-family: none;
+	padding: 10px;
+}
+
+.code_block{
+	font-family: none;
+	border: solid;
+	border-color: #a6d4de;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px 20px;
+	background: url('code_bg1.jpg');
+	background-size: 100%;
+}
+
+.console_block{
+	margin: 10px;
+	background: url('../static/1519710316_image07.jpg');
+	background-size: 100%;
+	border: solid;
+	border-color: #a6d4de;
+	border-radius: 10px;
+	padding: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
