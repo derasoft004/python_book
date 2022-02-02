@@ -103,7 +103,12 @@ pre{
 	padding: 0px 10px;
 }
 
-
+footer{
+	justify-content: space-between;
+	display: inline-block;
+	min-width: 1450px;
+	width: 100%;
+}
 
 
 
